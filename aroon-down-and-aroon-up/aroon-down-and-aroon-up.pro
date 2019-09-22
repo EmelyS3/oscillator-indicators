@@ -15,9 +15,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += main.cpp \
-    aroonoscillator.cpp \
+    aroon.cpp \
+    ../../csv-reader/csvreader.cpp \
     ../../base/base.cpp
 
 HEADERS += \
-    aroonoscillator.h \
+    aroon.h \
+    ../../csv-reader/csvreader.h \
     ../../base/base.h
